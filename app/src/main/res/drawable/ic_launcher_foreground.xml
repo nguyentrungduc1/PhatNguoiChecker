@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shield body (navy blue) -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M54,8 C54,8 20,18 14,22 L14,58 C14,78 54,100 54,100 C54,100 94,78 94,58 L94,22 C88,18 54,8 54,8 Z"/>
+
+    <!-- Gold shield border -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="3"
+        android:pathData="M54,11 C54,11 22,21 16,25 L16,58 C16,76 54,97 54,97 C54,97 92,76 92,58 L92,25 C86,21 54,11 54,11 Z"/>
+
+    <!-- Traffic light pole (vertical rect via path) -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M52,64 L52,87 L56,87 L56,64 Z"/>
+
+    <!-- Traffic light box (rounded rect via path) -->
+    <path
+        android:fillColor="#2C2C2C"
+        android:pathData="M44,50 Q44,48 46,48 L62,48 Q64,48 64,50 L64,73 Q64,75 62,75 L46,75 Q44,75 44,73 Z"/>
+
+    <!-- Red light circle -->
+    <path
+        android:fillColor="#FF1744"
+        android:pathData="M54,54 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+
+    <!-- Yellow light circle -->
+    <path
+        android:fillColor="#FFEA00"
+        android:pathData="M54,61.5 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+
+    <!-- Green light circle -->
+    <path
+        android:fillColor="#00C853"
+        android:pathData="M54,69 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"/>
+
+    <!-- Left wheat branch -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M38,62 Q32,57 33,49 Q35,53 37,55 Q34,47 38,41 Q39,46 39,50 Q41,44 44,40 Q43,45 41,50 Q44,46 47,45 Q45,49 41,53 Z"/>
+
+    <!-- Right wheat branch -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,62 Q76,57 75,49 Q73,53 71,55 Q74,47 70,41 Q69,46 69,50 Q67,44 64,40 Q65,45 67,50 Q64,46 61,45 Q63,49 67,53 Z"/>
+
+    <!-- Bottom gold banner -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M36,77 Q36,75 38,75 L70,75 Q72,75 72,77 L72,85 Q72,87 70,87 L38,87 Q36,87 36,85 Z"/>
+
+    <!-- "PN" letters on banner in navy -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M41,84 L41,78 L43,78 L43,80.5 L45,78 L47,78 L47,84 L45,84 L45,81.5 L43,84 Z"/>
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M49,84 L49,78 L53,78 Q55,78 55,80 Q55,81.5 53,82 L53,84 Z M51,80 L51,81 L52.5,81 Q53,81 53,80.5 Q53,80 52.5,80 Z"/>
+
+</vector>

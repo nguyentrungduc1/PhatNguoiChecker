@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/card_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Status badge -->
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_status_badge"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Row helper macro via include pattern - manual rows -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="6dp">
+            <TextView android:layout_width="120dp" android:layout_height="wrap_content"
+                android:text="Loại phương tiện:" android:textSize="12sp" android:textColor="@color/text_secondary" />
+            <TextView android:id="@+id/tv_vehicle_type" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="13sp" android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="6dp">
+            <TextView android:layout_width="120dp" android:layout_height="wrap_content"
+                android:text="Màu biển:" android:textSize="12sp" android:textColor="@color/text_secondary" />
+            <TextView android:id="@+id/tv_plate_color" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="13sp" android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="@color/divider" android:layout_marginVertical="8dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Hành vi vi phạm:" android:textSize="12sp"
+            android:textColor="@color/text_secondary" android:layout_marginBottom="4dp" />
+        <TextView android:id="@+id/tv_behavior" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="13sp"
+            android:textColor="@color/violation_red" android:layout_marginBottom="8dp" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="6dp">
+            <TextView android:layout_width="120dp" android:layout_height="wrap_content"
+                android:text="Thời gian:" android:textSize="12sp" android:textColor="@color/text_secondary" />
+            <TextView android:id="@+id/tv_violation_time" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="13sp" android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="6dp">
+            <TextView android:layout_width="120dp" android:layout_height="wrap_content"
+                android:text="Địa điểm:" android:textSize="12sp" android:textColor="@color/text_secondary" />
+            <TextView android:id="@+id/tv_violation_place" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="13sp" android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="@color/divider" android:layout_marginVertical="8dp" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:layout_marginBottom="6dp">
+            <TextView android:layout_width="120dp" android:layout_height="wrap_content"
+                android:text="Đơn vị phát hiện:" android:textSize="12sp" android:textColor="@color/text_secondary" />
+            <TextView android:id="@+id/tv_detecting_unit" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_weight="1"
+                android:textSize="13sp" android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Nơi giải quyết:" android:textSize="12sp"
+            android:textColor="@color/text_secondary" android:layout_marginBottom="4dp" />
+        <TextView android:id="@+id/tv_resolving_unit" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="13sp"
+            android:textColor="@color/text_primary" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="accent_blue">#1976D2</color>
+    <color name="background">#F0F2F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="add_button_bg">#E3F2FD</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#666680</color>
+    <color name="text_hint">#AAAACC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="status_green">#2E7D32</color>
+    <color name="status_gray">#9E9E9E</color>
+    <color name="start_green">#2E7D32</color>
+    <color name="stop_red">#C62828</color>
+    <color name="violation_red">#D32F2F</color>
+    <color name="processed_green">#388E3C</color>
+    <color name="delete_red">#EF5350</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="chip_selected">#1976D2</color>
+    <color name="chip_unselected">#E0E0E0</color>
+    <color name="notification_color">#1565C0</color>
+    <!-- Red-tinted background for items with unprocessed violations -->
+    <color name="result_violation_bg">#FFEBEE</color>
+    <color name="launcher_bg">#E8E4C8</color>
+</resources>
